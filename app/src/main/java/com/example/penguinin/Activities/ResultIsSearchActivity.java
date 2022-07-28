@@ -45,7 +45,7 @@ ActivityResultIsSearchBinding searchBinding;
     private void setUserMsg(){
    Toast toast =new Toast(getApplicationContext());
         toast.makeText(getApplicationContext(),"If you need to see more photos,\nplease scroll items from left to right",Toast.LENGTH_LONG).show();
-            toast.setGravity(Gravity.END,0,0);
+            toast.setGravity(Gravity.END|Gravity.BOTTOM,32,32);
     }
     private void setIDs(){
         searchResult = findViewById(R.id.titleKeyword);
@@ -80,6 +80,7 @@ ActivityResultIsSearchBinding searchBinding;
       }
       else{
           searchResult.setText(getString(R.string.not_result));
+          searchResult.setGravity(Gravity.CENTER_HORIZONTAL);
       }
        }
 
