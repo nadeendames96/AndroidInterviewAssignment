@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Penguinin</string>
+    <string name="home">Home</string>
+    <string name="industires">Industries</string>
+    <string name="technology">Technology</string>
+    <string name="company">Company</string>
+    <string name="contactus">Contact US</string>
+    <string name="description">PenguinIN indoor positioning technology applies advanced machine learning to establish location of indoor objects, people and smartphones with up to one meter accuracy. This location data is used by PenTrack and PenNav to enable value-centric use cases.</string>
+    <string name="search_content">Search Photos</string>
+    <string name="search_et">write here ...</string>
+    <string name="search_now">Search Now</string>
+    <string name="search_word">Search Word:</string>
+    <string name="exit">Exit</string>
+    <string name="do_exit">Are you sure you want to exit?</string>
+    <string name="fill_search">Please fill search text</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="ok">Ok</string>
+    <string name="emp_description">Photo not have description yet</string>
+    <string name="user_portfolio">User portfolio website</string>
+    <string name="photo_description">Photo Description:</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="not_result">Not results found</string>
+</resources>

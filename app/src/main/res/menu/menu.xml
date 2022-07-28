@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+
+    android:id="@+id/home"
+    android:title="@string/home"
+    android:actionLayout="@layout/appar"
+    />
+    <item
+        android:id="@+id/indusries"
+        android:title="@string/industires"
+        android:actionLayout="@layout/appar"
+        />
+    <item
+        android:id="@+id/technology"
+        android:title="@string/technology"
+        android:actionLayout="@layout/appar"
+        />
+    <item
+        android:id="@+id/comapny"
+        android:title="@string/company"
+        android:actionLayout="@layout/appar"
+        />
+    <item
+        android:id="@+id/contactus"
+        android:title="@string/contactus"
+        android:actionLayout="@layout/appar"
+        />
+</menu>
