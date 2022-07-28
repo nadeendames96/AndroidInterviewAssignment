@@ -14,13 +14,13 @@
     <dimen name="large_margin">50dp</dimen>
 
     <!--Height & Width-->
-    <dimen name="smallest_control">30dp</dimen>
+    <dimen name="smallest_control">25dp</dimen>
     <dimen name="small_control">40dp</dimen>
     <dimen name="small_control2">80dp</dimen>
     <dimen name="meduim_control">120dp</dimen>
     <dimen name="big_control">240dp</dimen>
     <dimen name="large_control">300dp</dimen>
-    <dimen name="large_control3">325dp</dimen>
+    <dimen name="large_control3">315dp</dimen>
     <dimen name="large_control2">600dp</dimen>
 
 

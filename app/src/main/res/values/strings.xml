@@ -16,10 +16,11 @@
     <string name="no">No</string>
     <string name="yes">Yes</string>
     <string name="ok">Ok</string>
-    <string name="emp_description">Photo not have description yet</string>
+    <string name="emp_description">Photo not have description and user not have portfolio link yet</string>
     <string name="user_portfolio">User portfolio website</string>
     <string name="photo_description">Photo Description:</string>
     <string name="settings">Settings</string>
-    <string name="about">About</string>
+    <string name="about">About US</string>
     <string name="not_result">Not results found</string>
+    <string name="search">Search</string>
 </resources>

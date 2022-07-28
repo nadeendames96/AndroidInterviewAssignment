@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Penguinin</string>
+    <string name="home">الصفحة الرئسية</string>
+    <string name="industires">صناعات</string>
+    <string name="technology">تكنولوجيا</string>
+    <string name="company">الشركه</string>
+    <string name="contactus">اتصل بنا</string>
+    <string name="description">تطبق تقنية PenguinIN لتحديد المواقع في الأماكن المغلقة التعلم الآلي المتقدم لتحديد مواقع الأجسام الداخلية والأشخاص والهواتف الذكية بدقة تصل إلى متر واحد. يتم استخدام بيانات الموقع هذه بواسطة PenTrack و PenNav لتمكين حالات الاستخدام المتمحورة حول القيمة.</string>
+    <string name="search_content">البحث في الصور</string>
+    <string name="search_et">اكتب هنا ...</string>
+    <string name="search_now">ابحث الآن</string>
+    <string name="search_word">كلمة البحث:</string>
+    <string name="exit">خروج</string>
+    <string name="do_exit">هل أنت متأكد أنك تريد الخروج؟</string>
+    <string name="fill_search">يرجى ملء نص البحث</string>
+    <string name="no">لأ</string>
+    <string name="yes">نعم</string>
+    <string name="ok">اوك</string>
+    <string name="emp_description">الصورة ليس لها وصف والمستخدم ليس لديه رابط محفظة حتى الآن</string>
+    <string name="user_portfolio">موقع محفظة المستخدم</string>
+    <string name="photo_description">وصف الصوره:</string>
+    <string name="settings">إعدادات</string>
+    <string name="about">معلومات عنا</string>
+    <string name="not_result">لم يتم العثور على نتائج</string>
+    <string name="search">بحث</string>
+
+</resources>

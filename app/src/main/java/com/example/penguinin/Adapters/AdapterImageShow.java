@@ -1,10 +1,7 @@
-package com.example.penguinin;
-
-import static com.example.penguinin.Constant.MyApplicationConstant.fetchResult;
+package com.example.penguinin.Adapters;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -17,6 +14,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.penguinin.Models.SearchModel;
+import com.example.penguinin.R;
 import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 
@@ -24,10 +22,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
 import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 
 public class AdapterImageShow extends RecyclerView.Adapter<AdapterImageShow.ViewHolder> {
