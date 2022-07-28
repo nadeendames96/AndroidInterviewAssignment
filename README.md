@@ -1,2 +1,3 @@
 # AndroidInterviewAssignment
-Java Language 
+Application language : Java 
+Api : unsplash Apis
