@@ -3,6 +3,7 @@ package com.example.penguinin.Activities;
 import static com.example.penguinin.Constant.MyApplicationConstant.fetchResult;
 import static com.example.penguinin.Constant.MyApplicationConstant.searchKeyword;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -43,9 +44,11 @@ ActivityResultIsSearchBinding searchBinding;
     }
 
     private void setUserMsg(){
-   Toast toast =new Toast(getApplicationContext());
-        toast.makeText(getApplicationContext(),"If you need to see more photos,\nplease scroll items from left to right",Toast.LENGTH_LONG).show();
-            toast.setGravity(Gravity.END|Gravity.BOTTOM,32,32);
+        new AlertDialog.Builder(this)
+                .setTitle(getString(R.string.info))
+                .setMessage(getString(R.string.more_result))
+                .setNegativeButton(R.string.ok, null)
+                .create().show();
     }
     private void setIDs(){
         searchResult = findViewById(R.id.titleKeyword);

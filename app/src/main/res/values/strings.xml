@@ -23,4 +23,6 @@
     <string name="about">About US</string>
     <string name="not_result">Not results found</string>
     <string name="search">Search</string>
+    <string name="more_result">If you need to see more photos,please scroll photos from left to right</string>
+    <string name="info">Info!</string>
 </resources>

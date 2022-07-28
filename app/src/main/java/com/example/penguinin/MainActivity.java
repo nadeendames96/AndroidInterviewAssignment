@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(mainBinding.getRoot());
         init();
     }
-    private void init(){
+    private void init()
         {
             Thread splashThread = new Thread(() -> {
           try {
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             });
             splashThread.start();
         }
-    }
+
 
     @Override
     protected void onPause() {
