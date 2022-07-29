@@ -72,10 +72,6 @@ public class AdapterImageShow extends RecyclerView.Adapter<AdapterImageShow.View
             JSONArray arrParm = new JSONArray(date);
             // config photo description
             JSONObject jObjParm = arrParm.getJSONObject(position);
-            String description = jObjParm.getString("description");
-            if (description != ""){
-                holder.description.setText(holder.itemView.getContext().getResources().getString(R.string.photo_description)+"\n"+description);
-            }
             // config image from url
             String imageUrl = jObjParm.getString("urls");
             JSONObject imgUrlParm = new JSONObject(imageUrl);
@@ -109,6 +105,11 @@ public class AdapterImageShow extends RecyclerView.Adapter<AdapterImageShow.View
                 holder.portfolio_url.setText("");
 
             }
+            String description = jObjParm.getString("description");
+            if (description != "" || description != null){
+                holder.description.setText(holder.itemView.getContext().getResources().getString(R.string.photo_description)+"\n"+description);
+            }
+          
         } catch (JSONException e) {
             e.printStackTrace();
             Log.wtf("response_error22",e.getMessage());
